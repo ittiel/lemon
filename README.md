@@ -7,7 +7,7 @@ Assignment from Igor
 2. Implement a simple web server that replies with an html/json response describing 
   the received request (headers, path, host, body, etc.):
    Example: { host: 'lambda.aws.....', headers: { "Content-Type": "application/json" }, body: "", ... }
-	* ** TODO:** Currently returns values as strings, need to convert values and return as Json
+	* **TODO:** Currently returns values as strings, need to convert values and return as Json
 	* **TODO:** Parse Headers? or return as is to Json
 	* Supports GET and POST requests
 3. Create a docker file for this service.
