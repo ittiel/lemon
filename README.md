@@ -36,12 +36,15 @@ Using pulumi, assuming AWS configuration exists
 Pulumi configuraton is in the pulumi fodler
 Create and deploy:
 ```pulumi up``` . 
+
 **Output returns the LB address for the service** .  
+
 Destroy:  
 ```pulumi destroy```
 
 ## Test (manually)
-Using curl:
-curl --data '{"username":"xyz","password":"xy1"}'  [LB Address]:8080/foo/bar .  
-or . 
-curl [LB Address]:8080/foo/bar . 
+Using curl:    
+```curl --data '{"username":"xyz","password":"xy1"}'  [LB Address]:8080/foo/bar```  
+
+or  
+```curl [LB Address]:8080/foo/bar```
