@@ -1,0 +1,3 @@
+name: lemonade
+runtime: nodejs
+description: Deploy Haskell server to AWS Fargate
