@@ -18,28 +18,30 @@ Assignment from Igor
 	
 ## Build and run localy (dev)
 Install dependencies:
-```cabal install --only-dependencies```
-Run:
-``` cabal run```
+```cabal install --only-dependencies``` . 
+
+Run:  
+``` cabal run``` . 
 
 ## Build and push Docker
 Open project on Docker hub
 https://cloud.docker.com/repository/docker/ittiel/lemon
 
-```docker build -t ittiel/lemon:latset ```
-```docker push ittiel/lemon:latset ```
+```docker build -t ittiel/lemon:latset ``` . 
+
+```docker push ittiel/lemon:latset ``` . 
 
 ## Deploy on AWS Fargate
 Using pulumi, assuming AWS configuration exists
 Pulumi configuraton is in the pulumi fodler
 Create and deploy:
-```pulumi up```
-**Output returns the LB address for the service**
-Destroy:
+```pulumi up``` . 
+**Output returns the LB address for the service** .  
+Destroy:  
 ```pulumi destroy```
 
 ## Test (manually)
 Using curl:
-curl --data '{"username":"xyz","password":"xy1"}'  [LB Address]:8080/foo/bar
-or
-curl [LB Address]:8080/foo/bar
+curl --data '{"username":"xyz","password":"xy1"}'  [LB Address]:8080/foo/bar .  
+or . 
+curl [LB Address]:8080/foo/bar . 
