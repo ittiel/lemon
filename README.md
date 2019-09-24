@@ -42,7 +42,7 @@ Create and deploy:
 Destroy:  
 ```pulumi destroy```
 
-## Test (manually)
+## Usage (curl)
 Using curl:    
 ```curl --data '{"username":"xyz","password":"xy1"}'  [LB Address]:8080/foo/bar```  
 
